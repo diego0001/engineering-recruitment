@@ -1,0 +1,8 @@
+FROM bitnami/symfony:1
+
+# Application root directory
+VOLUME /app
+WORKDIR /app
+
+# Application port
+EXPOSE 8000
